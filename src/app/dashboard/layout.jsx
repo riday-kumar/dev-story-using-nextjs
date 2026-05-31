@@ -4,8 +4,11 @@ import React from "react";
 const DashboardLayout = ({ children }) => {
   return (
     <div className="grid grid-cols-12 gap-5 min-h-screen">
-      <div className="col-span-2 border-r-2 border-blue-400">
-        <h2 className="bg-amber-500 py-5 px-2 text-center text-2xl text-white font-bold mb-5">
+      <div className="text-center space-y-5 col-span-2 border-r-2 border-blue-400">
+        <Link href="/" className="block text-2xl font-semibold">
+          Dev-Story
+        </Link>
+        <h2 className="bg-amber-500 py-5 px-2 text-2xl text-white font-bold mb-5">
           My Dashboard
         </h2>
         <nav className="flex flex-col gap-3 mx-3">
